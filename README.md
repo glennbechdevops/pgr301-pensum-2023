@@ -45,16 +45,12 @@
 * GitHub Actions skal publisere container image til AWS Elastic Container Registry /ECR
 * Deployment av Spring Boot apps/Containere til AWS AppRunner  
 
-### Feature toggles. skille "Deployment" fra "release"
-
-* Unleash feature toggles 
-* Bruke SDK for Unleash i Java-applikason for å slå egenskaper av- og på dynamisk  
-
 ### Infrastruktur som kode (IAC)
 
 * Terraform - grunleggende forståelse for Infrastruktur som kode med AWS provider som eksempel
 * Terraform State og livssyklus
-* Terraform AWS provider, data vs resource
+* Terraform AWS provider, data, resource, variabler
+* Terraform moduler
 * Terraform i GitHub Actions
 
 ## Feedback - prinsipper 
@@ -72,7 +68,7 @@
 * Eksport av Metrics fra Spring Boot og Micrometer til AWS CloudWatch
 * Lage Dashbord i AWS CloudWatch
 * Lage Dashbord i AWS CloudWatch fra Terraform 
-* CloudWatch Alarmer 
+* CloudWatch Alarmer  
 * Terraform, GitHub Actions for Alarmer og Dashbord 
 
 ## Kontinuerlig forbedring - prinsipper 
@@ -80,8 +76,4 @@
 * Retrospespektiver: Gjennomfør jevnlige retrospektiver etter hver iterasjon eller prosjektsyklus for å evaluere hva som gikk bra, hva som gikk galt, og hvordan man kan forbedre prosessen.
 * Kontinuerlig opplæring og kompetanseutvikling: Sørg for at teammedlemmene kontinuerlig lærer og utvikler seg for å holde tritt med nye teknologier og beste praksis innenfor DevOps.
 * Måling og KPI-er: Definer nøkkelindikatorer for ytelse (KPI-er) og mål for å vurdere effektiviteten av DevOps-prosessene. Disse målene kan inkludere gjennomsnittlig leveringstid, feilrater, og kundetilfredshet.
-* Kultur: Skap en kultur som oppmuntrer til åpen kommunikasjon, samarbeid og ansvarlighet. Kontinuerlig forbedring er avhengig av et team som er villig til å utfordre status quo og jobbe sammen mot felles mål.
-
-## koninuterlig forbedring - ferdigheter 
-
-* TBD
+* Kultur: Skap en kultur som oppmuntrer til åpen kommunikasjon, samarbeid og ansvarlighet. Kontinuerlig forbedring er avhengig av et team som er villig til å utfordre status quo og jobbe sammen mot felles mål
