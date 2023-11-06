@@ -39,19 +39,22 @@
 
 ### Docker 
 
+* Forstå hva hva en Container er i kontekst av virtualisering, og gevinstene docker gir i mikrotjenestearkitektur
 * Docker og Containere, kunne lage en Docker Container fra Spring Boot applikasjon 
-* Docker Bygge container image  fra GitHub Actions
+* Docker bygge container image  fra GitHub Actions
+* Fra egen maskin eller Cloud 9 - Publisere container image til Docker Hub
 * Fra egen maskin eller Cloud 9 - Publisere container image til AWS Elastic Container Registry /ECR 
-* GitHub Actions skal publisere container image til AWS Elastic Container Registry /ECR
-* Deployment av Spring Boot apps/Containere til AWS AppRunner  
+* Fra GitHub Actions workflow -  publisere container image til AWS Elastic Container Registry /ECR eller GitLab
+* Deployment av Spring Boot apps/Containere til AWS AppRunner fra AWS UI  
 
 ### Infrastruktur som kode (IAC)
 
 * Terraform - grunleggende forståelse for Infrastruktur som kode med AWS provider som eksempel
 * Terraform State og livssyklus
 * Terraform AWS provider, data, resource, variabler
+* Deployment av Spring Boot apps/Containere til AWS AppRunner fra Terraform
 * Terraform moduler
-* Terraform i GitHub Actions
+* Kjøre Terraform fra GitHub Actions
 
 ## Feedback - prinsipper 
 
